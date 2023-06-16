@@ -1,0 +1,302 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading-container{
+    display: grid;
+    grid-template-columns: repeat( 2, 305px);
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 96px;
+    
+
+}
+
+#heading{
+    align-self: start;
+    text-align: center;
+    Font-family: 'PT Serif';
+    font-weight: bold;
+    font-size:36px ;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: hsl(0,0%,0%);
+
+}
+.right-header-area{
+    width:440px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: hsl(0,0%,0%);
+}
+.right-header-area>h5{
+    font-weight: 600;
+    
+}
+.right-header-area>p{
+    font-weight: 400;
+
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns:repeat(3, 305px) ;
+    justify-content: center;
+    align-items: center;
+    row-gap: 126px;
+    column-gap: 30px;
+
+}
+
+.profile-card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.second-card, .fifth-card{
+    translate: 0px 66px;
+}
+.profile-photo{
+    width: 238px;
+    height: 341;
+    padding-bottom: 15px;
+    
+}
+.post-name{
+    font-family: 'PT Serif';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.025em;
+    color: #000;
+    transform: rotate(90deg);
+    align-self: flex-end;
+    translate: -20px 35px;
+    
+}
+
+.first-card>.post-name{
+    translate: -10px 48px;
+}
+
+.second-card>.post-name{
+    translate: -15px 45px;
+
+}
+.fourth-card>.post-name{
+    translate: -15px 42px;
+}
+
+.person-name{
+    align-self:flex-start ;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+/* Footer Area Styling */
+.footer-container{
+    padding-top:144px;
+    padding-bottom: 24px;
+    
+}
+
+.author-details{
+    color: #A9A9A9;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.author-details>a{
+    color:#A9A9A9;
+}
+
+
+/* Responsive design here */
+
+/* **** For Mobile device **** */
+
+@media screen and (max-width:600px){
+
+    *{
+        box-sizing: border-box;
+    }
+
+
+    /* Headign container responsive design */
+    .heading-container{
+        grid-template-columns: minmax(333px, 360px);
+        padding-top:70px ;
+        padding-left: 12px;
+        padding-bottom: 40px;
+        align-items: start;
+
+    }
+    #heading{
+        width: 278px;
+        text-align: left;
+    }
+    .right-header-area{
+        width: 333px;
+        margin: 38px 0px;
+    }
+    .right-header-area>p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    /* Profile gallery section responsive design */
+
+    .image-container{
+        grid-template-columns: repeat(2, 150px);
+        row-gap: 64px;
+        column-gap: 18px;
+    }
+
+    .fourth-card, .last-card{
+        translate: 0px 66px;
+    }
+    .fifth-card{
+        translate: 0px;
+
+    }
+
+    .profile-photo{
+        height: 220PX;
+        width: 138px;
+        padding-bottom: 10px;
+    }
+
+    .post-name{
+        font-size: 10px;
+        translate: 20px 32px;
+    }
+
+    .first-card>.post-name{
+        translate: 32px 42px;
+    }
+    
+    .second-card>.post-name{
+        translate: 25px 35px;
+    
+    }
+    .fourth-card>.post-name{
+        translate: 25px 38px;
+    }
+    
+    .person-name{
+        font-size: 14px;
+    }
+
+    .author-details{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+}
+
+/* ***** For Teblet Device ***** */
+@media screen and (min-width:600px) and (max-width:880px) {
+ 
+    
+    /* Headign container responsive design */
+    .heading-container{
+        align-items: start;
+        padding-top:70px ;
+        column-gap: 12px;
+        padding-bottom: 40px;
+
+    }
+    #heading{
+        font-size: 32px;
+        text-align: center;
+    }
+    .right-header-area{
+        width: 290px;
+    }
+    .right-header-area>p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    /* Image Gallery styling */
+    .image-container{
+        grid-template-columns:repeat(2, 275px);
+        column-gap: 10px;
+    }
+    .post-name{
+        translate: 5px 35px;
+    }
+    .first-card>.post-name{
+        translate: 20px 48px;
+    }
+    .second-card>.post-name{
+        translate: 10px 42px;
+    
+    }
+    .fourth-card>.post-name{
+        translate: 10px 42px;
+    }
+    .fourth-card, .last-card{
+        translate: 0px 66px;
+    }
+    .fifth-card{
+        translate: 0px;
+
+    }
+}
+
+/* ***** For Laptop Device ***** */
+@media screen and (min-width:880px) and (max-width:1200px) {
+
+     /* Headign container responsive design */
+     .heading-container{
+        align-items: start;
+        padding-top:70px ;
+        column-gap: 12px;
+        padding-bottom: 40px;
+
+    }
+    #heading{
+        font-size: 32px;
+        text-align: center;
+    }
+
+     /* Image Gallery styling */
+     .image-container{
+        grid-template-columns:repeat(3, 275px);
+        column-gap: 10px;
+    }
+    .post-name{
+        translate: 8px 35px;
+    }
+    .first-card>.post-name{
+        translate: 20px 48px;
+    }
+    .second-card>.post-name{
+        translate: 10px 42px;
+    
+    }
+    .fourth-card>.post-name{
+        translate: 15px 42px;
+    }
+
+}
