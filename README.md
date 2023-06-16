@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://itz-mohit-014.github.io/my-team-page-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/itz-mohit-014/my-team-page-challenge.git">
       Solution
     </a>
     <span> | </span>
@@ -36,40 +36,42 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](./screenshot-of-completer-project/Screenshot%202023-06-16%20at%2013-48-47%20Team%20Page%20Challenge.png)
+![Mobile-view-screenshot](./screenshot-of-completer-project/Screen%20Shot%202023-06-16%20at%2013.50.08.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- **Where can I see your demo?**
+This is just single page I design using HTML anc CSS. This page is fully responsive. You can check the solution on my Github repository or can see the live view by clicking on above mentioned solution button.
 
-- Where can I see your demo?
-- What was your experience?
+[REPOSITORY-LINK] : (https://github.com/itz-mohit-014/my-team-page-challenge.git)
+[LIVE-URL] : (https://itz-mohit-014.github.io/my-team-page-challenge/)
+
+
+- **What was your experience?**
+At the eairlier I thought that the responsive design is to complicated but just as I created this page I really feel that the creating responsive design isn't too much complicated if we tried it. 
+
 - What have you learned/improved?
-- Your wisdom? :)
+I learned how to use both #grid and #flexbox layout can be use to emplemente responsive page. 
+
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML]
+- [CSS]
+- [**NOTHING-USE-ANY-FRAMEWORK-RIGHT-NOW**]
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+  [**This-page-is-fully-responsive-design.**] 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
 
 ## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
+- 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@itz-mohit-014](https://github.com/itz-mohit-014)
+- Linkedin [@itz-mohit-014](https://www.linkedin.com/in/mohit487/)
